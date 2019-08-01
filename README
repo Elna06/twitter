@@ -1,0 +1,27 @@
+Récupérer les tweets émis depuis Hanoi en direct et afficher les résultats géolocalisés sur une carte
+/!\ Le fichier config.py contient les consumer_key, consumer_secret, access_token et access_token_secret, il faut avoir un compte développeur Twitter
+
+
+----------- Etape 1 ----------------
+
+Lancer recupTweet.py :
+ - sur un terminal à l'aide de la commande python3 recupTweet.py
+ - à partir d'un environnement comme Spyder
+
+Création d'un fichier tweets.txt contenant tous les tweets émis depuis la ville d'Hanoi
+
+
+----------- Etape 2 ----------------
+
+Lancer recupLocV1.py :
+ - sur un terminal à l'aide de la commande python3 recupLocV1.py
+ - à partir d'un environnement comme Spyder 
+
+Création d'un fichier csv pour avoir les données dans des colonnes puis création d'un fichier tweets_locationSEM et tweets_locationWE avec les latitudes et longitudes de chaque tweets géolocalisé la semaine ou le weekend
+
+Lancer affCarte.py :
+ - sur un terminal à l'aide de la commande python3 affCarte.py
+ - à partir d'un environnement comme Spyder
+
+Création de plusieurs cartes (à ouvrir manuellement, ils s'enregistrent dans le répertoire où se situe affCarte.py) qui permet d'afficher sur une page html une carte de Hanoi avec les points géolocalisés en fonction du matin, après-midi ou soir et semaine ou weekend
+
